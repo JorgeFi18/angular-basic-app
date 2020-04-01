@@ -1,0 +1,26 @@
+.contacto-form {
+    border: 1px solid black;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.contacto-form form > div {
+    width: 100%;
+    margin: 10px;
+}
+
+.contacto-form form > div input{
+    height: 25px;
+    width: 90%;
+}
+
+.contacto-form button {
+    background-color: cadetblue;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    cursor: pointer;
+}

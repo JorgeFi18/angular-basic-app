@@ -1,0 +1,13 @@
+<div class="contacto-form">
+    <form>
+        <div>
+            <p for="nombre">Nombre: </p>
+            <input type="text" name="nombre" id="nombre" [(ngModel)]="nombre" />
+        </div>
+        <div>
+            <p for="telefono">Telefono: </p>
+            <input type="text" name="telefono" id="telefono" [(ngModel)]="telefono" />
+        </div>
+    </form>
+    <button (click)="grabarContacto()">GRABAR</button>
+</div>
